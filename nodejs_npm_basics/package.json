@@ -1,0 +1,24 @@
+{
+  "name": "nodejs_npm_basics",
+  "version": "1.0.0",
+  "description": "NodeJs and NPM basics.",
+  "main": "index.html",
+  "scripts": {
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Slackoth/fullstack-web-development-course.git"
+  },
+  "author": "Luis Calderon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Slackoth/fullstack-web-development-course/issues"
+  },
+  "homepage": "https://github.com/Slackoth/fullstack-web-development-course#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
