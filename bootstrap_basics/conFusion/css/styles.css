@@ -1,0 +1,18 @@
+.row-header {
+  margin: 0 auto;
+  padding: 0 auto;
+}
+
+.row-content {
+  margin: 0 auto;
+  padding: 50px 0;
+  border-bottom: 1px ridge;
+  min-height: 400px;
+}
+
+.footer {
+  background-color: #d1c4e9;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+/*# sourceMappingURL=styles.css.map */
