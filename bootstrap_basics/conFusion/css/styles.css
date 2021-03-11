@@ -1,3 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
 .row-header {
   margin: 0 auto;
   padding: 0 auto;
@@ -14,5 +19,18 @@
   background-color: #d1c4e9;
   margin: 0 auto;
   padding: 20px 0;
+}
+
+.jumbotron {
+  padding: 70px 30px;
+  margin: 0 auto;
+  background: #9575cd;
+  color: #ffffff;
+}
+
+.address {
+  font-size: 80%;
+  margin: 0;
+  color: #000000;
 }
 /*# sourceMappingURL=styles.css.map */
