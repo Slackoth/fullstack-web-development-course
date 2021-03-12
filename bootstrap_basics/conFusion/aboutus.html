@@ -16,6 +16,28 @@
 </head>
 
 <body>
+    <nav class="navbar navbar-dark navbar-expand-sm bg-primary fixed-top">
+        <div class="container">
+            <!-- data-toggle -> Is a JS component used in bootstrap -->
+            <!-- data-target -> References de id of an element inside the HTML -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=#Navbar>
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <a href="./index.html" class="navbar-brand mr-auto">Ristorante Con Fusion</a>
+            
+            <div class="collapse navbar-collapse" id="Navbar">
+                <!-- mr-auto -> Used to specify the right margin -->
+                <ul class="navbar-nav mr-auto">
+                    <!-- active ->  Highlight an item -->
+                    <li class="nav-item"><a href="./index.html" class="nav-link">Home</a></li>
+                    <li class="nav-item active"><a href="#" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Menu</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
     <header class="jumbotron">
         <div class="container">
@@ -71,7 +93,7 @@
                 <div class="col-4 offset-1 col-sm-2">
                     <h5>Links</h5>
                     <ul class="list-unstyled">
-                        <li><a href="#">Home</a></li>
+                        <li><a href="./index.html">Home</a></li>
                         <li><a href="#">About</a></li>
                         <li><a href="#">Menu</a></li>
                         <li><a href="#">Contact</a></li>
