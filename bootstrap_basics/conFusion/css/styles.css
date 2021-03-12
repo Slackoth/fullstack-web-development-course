@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
 body {
+  z-index: 0;
+  padding-top: 50px;
   font-family: 'Poppins', sans-serif;
 }
 
@@ -32,5 +34,9 @@ body {
   font-size: 80%;
   margin: 0;
   color: #000000;
+}
+
+.navbar-dark {
+  background-color: #512da8;
 }
 /*# sourceMappingURL=styles.css.map */
