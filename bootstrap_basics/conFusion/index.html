@@ -475,48 +475,7 @@
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-    <!-- Enables tooltip -->
-    <!-- <script>
-        $(document).ready(() => {
-            $('[data-toggle="tooltip"]').tooltip();
-        });
-    </script> -->
-    <!-- Carousel modification -->
-    <script>
-        $(document).ready(() => {
-            var carousel = $('#carousel');
-            var button = $('#carouselButton');
-
-            carousel.carousel({ interval: 2000 });
-            button.click(e => {
-                if(button.children('i').hasClass('fa-pause')) {
-                    carousel.carousel('pause');
-                    button.children('i').removeClass('fa-pause');
-                    button.children('i').addClass('fa-play');
-                }
-                else {
-                    carousel.carousel('cycle');
-                    button.children('i').removeClass('fa-play');
-                    button.children('i').addClass('fa-pause');
-                }
-            })
-        });
-    </script>
-    <!-- Modal modification -->
-    <script>
-        var login = $('#loginButton');
-        var reserve = $('#reserveButton');
-
-        login.click(e => {
-            $('#loginModal').modal('show');
-        });
-
-        reserve.click(e => {
-            $('#reserveModal').modal('show');
-        });
-
-    </script>
-
+    <script src="js/scripts.js"></script>
 </body>
 
 </html>
