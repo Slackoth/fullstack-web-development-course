@@ -1,0 +1,57 @@
+.row-header {
+  margin: o auto;
+  padding: 0 0;
+}
+.row-content {
+  margin: o auto;
+  padding: 50px 0;
+  border-bottom: 1px ridge;
+  min-height: 400px;
+}
+.footer {
+  background-color: #d1c4e9;
+  margin: o auto;
+  padding: 20px 0;
+}
+.jumbotron {
+  margin: o auto;
+  padding: 70px 30px;
+  background: #9575cd;
+  color: #ffffff;
+}
+address {
+  font-size: 80%;
+  margin: 0;
+  color: #000000;
+}
+body {
+  z-index: 0;
+  padding-top: 50px;
+  font-family: 'Poppins', sans-serif;
+}
+.navbar-dark {
+  background-color: #512Da8;
+}
+.tab-content {
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  padding: 10px;
+}
+.carousel {
+  background: #512Da8;
+}
+.carousel .carousel-item {
+  height: 300px;
+}
+.carousel .carousel-item img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  min-height: 300px;
+}
+#carouselButton {
+  right: 0;
+  bottom: 0;
+  position: absolute;
+}
