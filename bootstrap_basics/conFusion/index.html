@@ -43,7 +43,7 @@
                 </ul>
 
                 <span class="navbar-text">
-                    <a href="#" data-toggle="modal" data-target="#loginModal">
+                    <a href="#" id="loginButton">
                         <i class="fa fa-sign-in"></i> Login
                     </a>
                 </span>
@@ -214,8 +214,7 @@
                     data-toggle="tooltip" data-html="true" 
                     title="Or call us at <br><strong>+852 2222-7777</strong>"
                     data-placement="bottom">Reserve table</a> -->
-                    <a class="btn btn-block btn-warning mt-3"
-                    data-toggle="modal" data-target="#reserveModal">
+                    <a class="btn btn-block btn-warning mt-3" id="reserveButton">
                         Reserve table
                     </a>
                 </div>
@@ -503,6 +502,21 @@
             })
         });
     </script>
+    <!-- Modal modification -->
+    <script>
+        var login = $('#loginButton');
+        var reserve = $('#reserveButton');
+
+        login.click(e => {
+            $('#loginModal').modal('show');
+        });
+
+        reserve.click(e => {
+            $('#reserveModal').modal('show');
+        });
+
+    </script>
+
 </body>
 
 </html>
