@@ -68,4 +68,17 @@ address {
   bottom: 0;
   z-index: 1;
 }
+
+.modal .modal-header {
+  color: floralwhite;
+  background: #512Da8;
+}
+
+.modal .modal-header .close {
+  color: floralwhite;
+}
+
+.modal .modal-body {
+  background: #d1c4e9;
+}
 /*# sourceMappingURL=styles.css.map */
