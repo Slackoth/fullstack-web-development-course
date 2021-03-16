@@ -1,4 +1,4 @@
-$(document).ready(() => {
+$(document).ready(function() {
     var carousel = $('#carousel');
     var login = $('#loginButton');
     var button = $('#carouselButton');
@@ -6,7 +6,7 @@ $(document).ready(() => {
 
     // Carousel modification
     carousel.carousel({ interval: 2000 });
-    button.click(e => {
+    button.click(function(e) {
         if(button.children('i').hasClass('fa-pause')) {
             carousel.carousel('pause');
             button.children('i').removeClass('fa-pause');
@@ -20,10 +20,10 @@ $(document).ready(() => {
     })
 
     // Modal modification
-    login.click(e => {
+    login.click(function(e) {
         $('#loginModal').modal('toggle');
     });
-    reserve.click(e => {
+    reserve.click(function(e) {
         $('#reserveModal').modal('toggle');
     });
 
