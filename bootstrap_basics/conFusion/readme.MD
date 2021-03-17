@@ -25,6 +25,15 @@
 * npm install jit-grunt --save-dev
 * npm install grunt-contrib-watch --save-dev
 * npm install grunt-browser-sync --save-dev
+* npm install grunt-contrib-copy --save-dev
+* npm install grunt-contrib-clean --save-dev
+* npm install grunt-contrib-imagemin --save-dev
+* npm install grunt-contrib-concat --save-dev
+* npm install grunt-contrib-cssmin --save-dev
+* npm install grunt-contrib-htmlmin --save-dev
+* npm install grunt-contrib-uglify --save-dev
+* npm install grunt-filerev --save-dev
+* npm install grunt-usemin --save-dev
 
 # Less compiler commands
 * /path/to/compiler/lessc [file_name].less [file_name].css
