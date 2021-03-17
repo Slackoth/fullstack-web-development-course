@@ -55,6 +55,13 @@
     * Webpage where the solution is: https://github.com/darkguy2008/parallelshell/issues/69
     * Solution: Copy this https://raw.githubusercontent.com/darkguy2008/parallelshell/master/index.js and And put in your /project/node_modules/parallelshell/index.js
 
+# Grunt resources
+* [Grunt](https://gruntjs.com)
+* [Writing an Awesome Build Script with Grunt](https://www.sitepoint.com/writing-awesome-build-script-grunt/)
+* [Clean grunt](http://anders.janmyr.com/2014/01/clean-grunt.html)
+* [File globbing](https://gruntjs.com/configuring-tasks#globbing-patterns)
+* [The Command Line for Web Design: Automation With Grunt](https://webdesign.tutsplus.com/tutorials/the-command-line-for-web-design-automation-with-grunt--cms-23454)
+
 # Notes
 * uglifyjs 2.4.11 module does not compile labmbda functions in the form "() => {}"
 * grunt-sass 3 and higher, it ios neccesary to choose between node-sass or dart-sass compiler, for nodejs, install node-sass.
