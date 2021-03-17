@@ -35,6 +35,10 @@
 * npm install grunt-filerev --save-dev
 * npm install grunt-usemin --save-dev
 
+# Grunt syntax
+* grunt [command_registered]
+    * Example: grunt build
+
 # Less compiler commands
 * /path/to/compiler/lessc [file_name].less [file_name].css
 
