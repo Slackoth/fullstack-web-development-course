@@ -15,6 +15,16 @@
 * npm install cssmin@0.4.3 --save-dev
 * npm install  uglifyjs@2.4.11 --save-dev
 * npm install htmlmin@0.0.7 --save-dev
+* npm install -g grunt-cli
+* npm install grunt --save-dev
+
+# Grunt plugins
+* npm install grunt-sass --save-dev
+* npm install node-sass --save-dev
+* npm install time-grunt --save-dev
+* npm install jit-grunt --save-dev
+* npm install grunt-contrib-watch --save-dev
+* npm install grunt-browser-sync --save-dev
 
 # Less compiler commands
 * /path/to/compiler/lessc [file_name].less [file_name].css
@@ -38,3 +48,4 @@
 
 # Notes
 * uglifyjs 2.4.11 module does not compile labmbda functions in the form "() => {}"
+* grunt-sass 3 and higher, it ios neccesary to choose between node-sass or dart-sass compiler, for nodejs, install node-sass.
