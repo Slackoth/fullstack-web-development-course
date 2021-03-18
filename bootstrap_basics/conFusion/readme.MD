@@ -1,4 +1,5 @@
 # NPM commands (dependencies)
+* npm install lite-server --save-dev
 * npm install bootstrap@4.6.0 --save
 * npm install jquery --save
 * npm install @popperjs/core --save
